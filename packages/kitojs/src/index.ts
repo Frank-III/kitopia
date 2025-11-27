@@ -68,4 +68,6 @@ export * from "./helpers/schema";
 export * from "./helpers/middleware";
 
 export * from "./server/server";
+export * from "./server/kito";
+export * from "./client";
 export * from "./types";
