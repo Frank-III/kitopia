@@ -1,13 +1,13 @@
 {
-  "name": "@kitojs/bench",
-  "description": "Kito's benchmarks.",
+  "name": "@kitopia/bench",
+  "description": "Kitopia benchmarks.",
   "private": true,
   "type": "module",
 
   "scripts": {
     "bench:run": "tsx runBench.ts"
   },
-  
+
   "dependencies": {
     "@hapi/hapi": "^21.4.3",
     "@hono/node-server": "^1.19.6",
@@ -17,7 +17,7 @@
     "express": "^5.1.0",
     "fastify": "^5.6.1",
     "hono": "^4.10.4",
-    "kitojs": "workspace:*",
+    "kitopia": "workspace:*",
     "koa": "^3.1.1",
     "restify": "^11.1.0",
     "skia-canvas": "^3.0.8"

@@ -1,4 +1,4 @@
-import { server } from "kitojs";
+import { server } from "kitopia";
 
 interface Database {
   query: (sql: string) => unknown[];

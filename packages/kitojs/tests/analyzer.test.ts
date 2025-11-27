@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 
 import { analyzeHandler } from "../src/server/analyzer";
-import type { Context } from "@kitojs/types";
+import type { Context } from "@kitopia/types";
 
 describe("Static Response Analyzer", () => {
   it("should detect full static response", () => {

@@ -1,4 +1,4 @@
-import type { InferType, ObjectSchema, SchemaType } from "@kitojs/types";
+import type { InferType, ObjectSchema, SchemaType } from "@kitopia/types";
 
 export class ObjectSchemaImpl<T extends Record<string, SchemaType>>
   implements ObjectSchema<T>

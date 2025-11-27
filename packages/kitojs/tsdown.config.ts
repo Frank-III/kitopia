@@ -7,6 +7,9 @@ export default defineConfig({
   format: "esm",
   minify: true,
 
-  dts: true,
+  dts: {
+    entry: "src/index.ts",
+  },
+  hash: false,
   tsconfig: "tsconfig.json",
 });

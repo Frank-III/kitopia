@@ -1,15 +1,15 @@
 {
-  "name": "@kitojs/examples",
-  "description": "Kito's usage examples.",
+  "name": "@kitopia/examples",
+  "description": "Kitopia usage examples.",
   "private": true,
   "type": "module",
-  
+
   "scripts": {
     "ex:run": "tsx runExample.ts"
   },
 
   "dependencies": {
-    "kitojs": "workspace:*"
+    "kitopia": "workspace:*"
   },
   "devDependencies": {
     "tsx": "^4.20.6",

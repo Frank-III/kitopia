@@ -1,4 +1,4 @@
-import type { MiddlewareDefinition, MiddlewareHandler } from "@kitojs/types";
+import type { MiddlewareDefinition, MiddlewareHandler } from "@kitopia/types";
 
 /**
  * Creates a typed middleware definition.

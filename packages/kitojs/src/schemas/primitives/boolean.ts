@@ -1,4 +1,4 @@
-import type { BooleanSchema } from "@kitojs/types";
+import type { BooleanSchema } from "@kitopia/types";
 
 export class BooleanSchemaImpl implements BooleanSchema {
   _type!: boolean;

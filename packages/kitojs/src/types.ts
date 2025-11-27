@@ -1,1 +1,1 @@
-export type { Context, KitoContext } from "@kitojs/types";
+export type { Context, KitoContext } from "@kitopia/types";

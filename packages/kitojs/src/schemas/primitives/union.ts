@@ -1,4 +1,4 @@
-import type { SchemaType, UnionSchema } from "@kitojs/types";
+import type { SchemaType, UnionSchema } from "@kitopia/types";
 
 export class UnionSchemaImpl<T extends SchemaType[]> implements UnionSchema<T> {
   // biome-ignore lint/suspicious/noExplicitAny: ...

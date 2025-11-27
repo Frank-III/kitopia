@@ -1,4 +1,4 @@
-import { server } from "kitojs";
+import { server } from "kitopia";
 
 export function start(port: number): { stop: () => void } {
   const app = server();

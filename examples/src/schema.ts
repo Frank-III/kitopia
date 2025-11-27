@@ -1,5 +1,5 @@
-import type { Context } from "kitojs";
-import { schema, server, t } from "kitojs";
+import type { Context } from "kitopia";
+import { schema, server, t } from "kitopia";
 
 const app = server();
 

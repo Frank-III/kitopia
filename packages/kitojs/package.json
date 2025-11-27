@@ -1,7 +1,7 @@
 {
-  "name": "kitojs",
-  "version": "1.0.0-alpha.4",
-  "description": "🐺 The high-performance, type-safe and modern TypeScript web framework written in Rust.",
+  "name": "kitopia",
+  "version": "0.1.0",
+  "description": "A high-performance, type-safe TypeScript web framework with a Rust core.",
   "scripts": {
     "build": "tsdown",
 
@@ -15,12 +15,12 @@
   },
 
   "dependencies": {
-    "@kitojs/kito-core": "workspace:*",
+    "@kitopia/core": "workspace:*",
     "acorn": "^8.15.0",
     "acorn-walk": "^8.3.4"
   },
   "devDependencies": {
-    "@kitojs/types": "workspace:*",
+    "@kitopia/types": "workspace:*",
     "@vitest/coverage-v8": "^4.0.9",
     "tsdown": "^0.15.0",
     "typedoc": "^0.28.14",
@@ -32,11 +32,11 @@
 
   "repository": {
     "type": "git",
-    "url": "https://github.com/kitojs/kito.git"
+    "url": "https://github.com/Frank-III/kitopia.git"
   },
-  "homepage": "https://kito.pages.dev",
+  "homepage": "https://github.com/Frank-III/kitopia",
   "bugs": {
-    "url": "https://github.com/kitojs/kito/issues"
+    "url": "https://github.com/Frank-III/kitopia/issues"
   },
 
   "license": "MIT",

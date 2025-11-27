@@ -16,7 +16,7 @@ import type {
   LiteralSchema,
   UnionSchema,
   SchemaType,
-} from "@kitojs/types";
+} from "@kitopia/types";
 
 /**
  * Schema builder utilities for creating type-safe request validation schemas.

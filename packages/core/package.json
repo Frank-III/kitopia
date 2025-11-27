@@ -1,7 +1,7 @@
 {
-  "name": "@kitojs/kito-core",
-  "version": "1.0.0-alpha.4",
-  "description": "Internal logic (core) of the Kito framework written in Rust.",
+  "name": "@kitopia/core",
+  "version": "0.1.0",
+  "description": "Rust core for the Kitopia web framework.",
   "scripts": {
     "build": "napi build --release --platform --esm --js index.js --output-dir dist",
     "test": "cargo test"
@@ -10,6 +10,11 @@
   "dependencies": {},
   "devDependencies": {
     "@napi-rs/cli": "^3.1.5"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Frank-III/kitopia.git"
   },
 
   "type": "module",
@@ -27,7 +32,7 @@
 
   "napi": {
     "binaryName": "core",
-    "packageName": "@kitojs/kito-core",
+    "packageName": "@kitopia/core",
     "targets": [
       "x86_64-apple-darwin",
       "aarch64-apple-darwin",

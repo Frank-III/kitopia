@@ -3,7 +3,7 @@ import type {
   CommonHeaderNames,
   KitoRequest,
   RequestHeaders,
-} from "@kitojs/types";
+} from "@kitopia/types";
 import {
   getBodyBuffer,
   getHeader,
@@ -24,7 +24,7 @@ import {
   getIps,
   getSecure,
   getXhr,
-} from "@kitojs/kito-core";
+} from "@kitopia/core";
 
 export class RequestBuilder implements KitoRequest {
   // biome-ignore lint/suspicious/noExplicitAny: ...

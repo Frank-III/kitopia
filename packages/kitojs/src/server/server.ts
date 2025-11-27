@@ -9,9 +9,9 @@ import type {
   KitoContext,
   RouteChain,
   KitoServerInstance,
-} from "@kitojs/types";
+} from "@kitopia/types";
 
-import { ServerCore, type ServerOptionsCore } from "@kitojs/kito-core";
+import { ServerCore, type ServerOptionsCore } from "@kitopia/core";
 import { RequestBuilder } from "./request";
 import { ResponseBuilder } from "./response";
 

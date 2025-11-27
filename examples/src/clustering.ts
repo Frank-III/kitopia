@@ -1,7 +1,7 @@
 import cluster from "node:cluster";
 import { availableParallelism } from "node:os";
 
-import { server } from "kitojs";
+import { server } from "kitopia";
 
 if (cluster.isPrimary) {
   const numCPUs = availableParallelism();

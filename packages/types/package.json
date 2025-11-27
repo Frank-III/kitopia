@@ -1,7 +1,7 @@
 {
-  "name": "@kitojs/types",
-  "version": "1.0.0-alpha.4",
-  "description": "TypeScript types for the Kito framework.",
+  "name": "@kitopia/types",
+  "version": "0.1.0",
+  "description": "TypeScript types for the Kitopia framework.",
   "scripts": {
     "build": "tsdown"
   },
@@ -13,11 +13,11 @@
 
   "repository": {
     "type": "git",
-    "url": "https://github.com/kitojs/kito.git"
+    "url": "https://github.com/Frank-III/kitopia.git"
   },
-  "homepage": "https://kito.pages.dev",
+  "homepage": "https://github.com/Frank-III/kitopia",
   "bugs": {
-    "url": "https://github.com/kitojs/kito/issues"
+    "url": "https://github.com/Frank-III/kitopia/issues"
   },
 
   "license": "MIT",

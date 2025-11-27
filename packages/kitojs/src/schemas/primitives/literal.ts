@@ -1,4 +1,4 @@
-import type { LiteralSchema } from "@kitojs/types";
+import type { LiteralSchema } from "@kitopia/types";
 
 export class LiteralSchemaImpl<T extends string | number | boolean>
   implements LiteralSchema<T>

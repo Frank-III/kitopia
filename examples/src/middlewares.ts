@@ -1,4 +1,4 @@
-import { middleware, server } from "kitojs";
+import { middleware, server } from "kitopia";
 
 const app = server();
 

@@ -1,4 +1,4 @@
-import { server } from "kitojs";
+import { server } from "kitopia";
 
 const app = server();
 
