@@ -15,12 +15,12 @@
   },
 
   "dependencies": {
-    "@kitopia/core": "workspace:*",
+    "@frankwww/kitopia-core": "^0.1.0",
     "acorn": "^8.15.0",
     "acorn-walk": "^8.3.4"
   },
   "devDependencies": {
-    "@kitopia/types": "workspace:*",
+    "@frankwww/kitopia-types": "^0.1.0",
     "@vitest/coverage-v8": "^4.0.9",
     "tsdown": "^0.15.0",
     "typedoc": "^0.28.14",

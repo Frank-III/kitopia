@@ -9,9 +9,9 @@ import type {
   KitoContext,
   RouteChain,
   KitoServerInstance,
-} from "@kitopia/types";
+} from "@frankwww/kitopia-types";
 
-import { ServerCore, type ServerOptionsCore } from "@kitopia/core";
+import { ServerCore, type ServerOptionsCore } from "@frankwww/kitopia-core";
 import { RequestBuilder } from "./request";
 import { ResponseBuilder } from "./response";
 

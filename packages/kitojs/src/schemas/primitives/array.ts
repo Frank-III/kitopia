@@ -1,4 +1,4 @@
-import type { ArraySchema, SchemaType } from "@kitopia/types";
+import type { ArraySchema, SchemaType } from "@frankwww/kitopia-types";
 
 export class ArraySchemaImpl<T extends SchemaType> implements ArraySchema<T> {
   // biome-ignore lint/suspicious/noExplicitAny: ...

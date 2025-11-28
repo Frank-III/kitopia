@@ -1,5 +1,5 @@
 {
-  "name": "@kitopia/types",
+  "name": "@frankwww/kitopia-types",
   "version": "0.1.0",
   "description": "TypeScript types for the Kitopia framework.",
   "scripts": {

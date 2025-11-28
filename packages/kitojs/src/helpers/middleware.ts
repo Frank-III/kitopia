@@ -1,4 +1,4 @@
-import type { MiddlewareDefinition, MiddlewareHandler } from "@kitopia/types";
+import type { MiddlewareDefinition, MiddlewareHandler } from "@frankwww/kitopia-types";
 
 /**
  * Creates a typed middleware definition.

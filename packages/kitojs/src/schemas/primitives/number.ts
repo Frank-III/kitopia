@@ -1,4 +1,4 @@
-import type { NumberSchema } from "@kitopia/types";
+import type { NumberSchema } from "@frankwww/kitopia-types";
 
 export class NumberSchemaImpl implements NumberSchema {
   _type!: number;

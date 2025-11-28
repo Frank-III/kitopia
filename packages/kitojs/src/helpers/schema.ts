@@ -1,4 +1,4 @@
-import type { SchemaDefinition } from "@kitopia/types";
+import type { SchemaDefinition } from "@frankwww/kitopia-types";
 
 /**
  * Creates a typed schema definition for request validation.

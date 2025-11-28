@@ -1,4 +1,4 @@
-import type { StringSchema } from "@kitopia/types";
+import type { StringSchema } from "@frankwww/kitopia-types";
 
 export class StringSchemaImpl implements StringSchema {
   _type!: string;

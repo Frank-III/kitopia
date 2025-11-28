@@ -1,5 +1,5 @@
 {
-  "name": "@kitopia/core",
+  "name": "@frankwww/kitopia-core",
   "version": "0.1.0",
   "description": "Rust core for the Kitopia web framework.",
   "scripts": {
@@ -32,7 +32,7 @@
 
   "napi": {
     "binaryName": "core",
-    "packageName": "@kitopia/core",
+    "packageName": "@frankwww/kitopia-core",
     "targets": [
       "x86_64-apple-darwin",
       "aarch64-apple-darwin",

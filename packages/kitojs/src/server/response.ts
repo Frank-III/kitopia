@@ -6,14 +6,14 @@ import type {
   CommonResponseHeaderNames,
   StreamWriter,
   SSEWriter,
-} from "@kitopia/types";
+} from "@frankwww/kitopia-types";
 
 import {
   sendResponse,
   startStream,
   sendChunk,
   endStream,
-} from "@kitopia/core";
+} from "@frankwww/kitopia-core";
 import { readFileSync } from "node:fs";
 
 const HTTP_STATUS_MESSAGES: Record<number, string> = {
